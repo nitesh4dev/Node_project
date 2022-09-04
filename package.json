@@ -1,0 +1,19 @@
+{
+  "name": "node-and-express-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "age_calculator": "nodemon age_calculator/index.js",
+    "fs_module": "nodemon fs_module/index.js",
+    "area_volume_calculator": "nodemon area_volume_calculator/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19"
+  }
+}
